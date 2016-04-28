@@ -1,6 +1,6 @@
 --Station'ssid and Password setup. You must change for your setting.
-st_ssid="fucxy-test";
-st_pw="1qaz2wsx123456";
+sta_ssid="fucxy-test";
+sta_pw="1qaz2wsx123456";
 --Ap's init_config
 ap_cfg={};
 --Ap's ip config
@@ -20,7 +20,7 @@ function ap_setting()
   if(online==1) then
     ap_cfg.ssid="node_"..sub_net_stage..node.chipid()
   else
-    ap_cfg.ssid="node_"..sub_net_stage..node.chipid()
+    ap_cfg.ssid="innode_"..sub_net_stage..node.chipid()
   end
   ap_cfg.pwd="1qaz2wsx123456"..sub_net_stage
   wifi.ap.config(ap_cfg)
@@ -40,9 +40,23 @@ wifi.eventmon.register(wifi.eventmon.AP_STACONNECTED, function(T)
 end)
 --wifi sta handler
 function ap_connect(t)
+  connect_id= 0
   for k,v pairs(t) do
     print(k.." : "..v)
+    if (v==st_ssid) then
+      connect_id=k;
+    else if(connect_id==0&&string.sub(v,1,4)=="node") then
+      connect_id=k;
+    end
+  end
+  if(t[connect_id]==sta_ssid) then
+    
   end
 end
+wifi.sta.disconnect()
 wifi.sta.getap(ap_connect)
-if(wifi.sta.status()==STATION_CONNECTING)
+if(wifi.sta.status()==STATION_CONNECTING) then
+  online=1;
+else
+
+end
