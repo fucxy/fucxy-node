@@ -14,6 +14,7 @@ online=0
 wifi.setmode(3)
 wifi.sta.autoconnect(0)
 wifi.stopsmart()
+wifi.sta.disconnect()
 --Wifi ap setting
 function ap_setting()
   wifi.ap.dhcp.stop()
@@ -53,7 +54,6 @@ function ap_connect(t)
     
   end
 end
-wifi.sta.disconnect()
 wifi.sta.getap(ap_connect)
 if(wifi.sta.status()==STATION_CONNECTING) then
   online=1;
