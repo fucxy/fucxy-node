@@ -1,6 +1,8 @@
---Station'ssid and Password setup. You must change for your setting.
-sta_ssid="fucxy-test";
-sta_pw="1qaz2wsx123456";
+--Gateway's ssid and Password setup. You must change for your setting.
+gateway_ssid="fucxy-test";
+gateway_pw="1qaz2wsx123456";
+--Place for save the available station
+sta_list={}
 --Ap's init_config
 ap_cfg={};
 --Ap's ip config
@@ -17,7 +19,7 @@ wifi.stopsmart()
 --Wifi ap setting
 function ap_setting()
   wifi.ap.dhcp.stop()
-  if(online==1) then
+  if(online!=0) then
     ap_cfg.ssid="node_"..sub_net_stage..node.chipid()
   else
     ap_cfg.ssid="innode_"..sub_net_stage..node.chipid()
@@ -39,14 +41,20 @@ wifi.eventmon.register(wifi.eventmon.AP_STACONNECTED, function(T)
   print("\n\tAP - STATION CONNECTED".."\n\tMAC: "..T.MAC.."\n\tAID: "..T.AID)
 end)
 --wifi sta handler
-function ap_connect(t)
-  connect_id= 0
+function sta_connect(t)
+  count = #sta_list
+  for k =0,count do
+    sta_list[k]=nil
+  end
+  count=1
   for k,v pairs(t) do
     print(k.." : "..v)
-    if (v==st_ssid) then
-      connect_id=k;
-    else if(connect_id==0&&string.sub(v,1,4)=="node") then
-      connect_id=k;
+    if (v == gateway_ssid) then
+       sta_list[count] = v
+       count = count + 1
+    else if(string.sub(v,1,4)=="node") then
+       sta_list[count] = v
+       count = count + 1
     end
   end
   if(t[connect_id]==sta_ssid) then
@@ -54,7 +62,7 @@ function ap_connect(t)
   end
 end
 wifi.sta.disconnect()
-wifi.sta.getap(ap_connect)
+wifi.sta.getap(sta_connect)
 if(wifi.sta.status()==STATION_CONNECTING) then
   online=1;
 else
