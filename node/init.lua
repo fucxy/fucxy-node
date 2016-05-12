@@ -43,22 +43,29 @@ end)
 --wifi sta handler
 function sta_connect(t)
   count = #sta_list
+  has_gateway=0
   for k =0,count do
     sta_list[k]=nil
   end
-  count=1
+  count=0
   for k,v pairs(t) do
     print(k.." : "..v)
     if (v == gateway_ssid) then
-       sta_list[count] = v
-       count = count + 1
+       has_gateway = 1
     else if(string.sub(v,1,4)=="node") then
        sta_list[count] = v
        count = count + 1
     end
   end
-  if(t[connect_id]==sta_ssid) then
-    
+  --Select node
+  if(has_gateway == 1) then
+    print("Gateway find!")
+    wifi.sta.config(gateway_ssid,gateway_pw)
+    wifi.sta.connect() 
+  else if (#sta_list != 0) then 
+     
+  else
+    print("Detect no node!!") 
   end
 end
 wifi.sta.disconnect()
@@ -66,5 +73,10 @@ wifi.sta.getap(sta_connect)
 if(wifi.sta.status()==STATION_CONNECTING) then
   online=1;
 else
-
+  
 end
+--Done for wifi setting
+server = net.createServer(net.UDP,80)
+
+server.close()
+wifi.sta.disconnect()
