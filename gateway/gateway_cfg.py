@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-script_aquire=["msgcenter","webserver"]
+import modules
+script_aquire=[modules.msgcenter,modules.webserver]
 address = {'host' : 'localhost',
            'port' : 8888}
 max_user = 100

@@ -1,29 +1,27 @@
 #!/usr/bin/env python
-import socket,sys,gateway_cfg,queue,select
-active_module=[]
+import socket,sys,gateway_cfg,select
 class webserver :
-  def __init__():
-    
+  def __init__(self,condition):
+    #init
+    self.con = condition
+  def run(self):
+    #run
+    print("web server start!!")
 class msgcenter :
-  def __init__():
-  def
-
-if __name__ == '__main__'
-  try:
-    print("Hello World!!")
-    server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-    server.setblocking(0)
-    server.bind((gateway_cfg.address['host'],gateway_cfg.address['port']))
-    print("Port",gateway_cfg.address['port'])
-    server.listen(gateway_cfg.max_user)
+  def __init__(self,condition):
+    #init server setting
+    self.con = condition
+    try:
+      print("start config")
+      self.server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+      self.server.setblocking(0)
+      self.server.bind((gateway_cfg.address['host'],gateway_cfg.address['port']))
+      self.server.listen(gateway_cfg.max_user)
+    except socket.error as msg:
+      print("[ERROR] %s\n" % msg)
+      self.break_out = true
+  def run(self):
+    #start 
     while true:
-      connection,address = sock.accept()
-      connection.close()
-  except socket.error as msg:
-    sys.stderr.write("[ERROR] %s\n" % msg)
-    sys.exit(1)
-  except KeyboardInterrupt:
-    server.close()
-    exit(0)
-  except:
-    exit(0)
+      connection,address = self.server.accept()
+      connection.close() 
