@@ -69,12 +69,9 @@ function sta_connect(t)
     print("Detect no node!!") 
   end
 end
-<<<<<<< HEAD:node/init.lua
 wifi.sta.disconnect()
 wifi.sta.getap(sta_connect)
-=======
 wifi.sta.getap(ap_connect)
->>>>>>> 4301bd3fc6ae5c2dbaf79464c896fc5b012236de:init.lua
 if(wifi.sta.status()==STATION_CONNECTING) then
   online=1;
 else
