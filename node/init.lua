@@ -1,6 +1,6 @@
 --Gateway's ssid and Password setup. You must change for your setting.
 gateway_ssid="fucxy-test";
-gateway_pw="1qaz2wsx123456";
+gateway_pw="qwerty1qaz2wsx";
 --Place for save the available station
 sta_list={}
 --Ap's init_config
@@ -12,11 +12,7 @@ ap_dhcp_cfg ={}
 --Other staff
 sub_net_stage=1
 online=0
---Initail config
-wifi.setmode(3)
-wifi.sta.autoconnect(0)
-wifi.stopsmart()
-wifi.sta.disconnect()
+
 --Wifi ap setting
 function ap_setting()
   wifi.ap.dhcp.stop()
@@ -37,10 +33,12 @@ function ap_setting()
   wifi.ap.dhcp.config(dhcp_config)
   wifi.ap.dhcp.start()
 end
+
 --Ap connect handler
 wifi.eventmon.register(wifi.eventmon.AP_STACONNECTED, function(T) 
   print("\n\tAP - STATION CONNECTED".."\n\tMAC: "..T.MAC.."\n\tAID: "..T.AID)
 end)
+
 --wifi sta handler
 function sta_connect(t)
   count = #sta_list
@@ -69,6 +67,18 @@ function sta_connect(t)
     print("Detect no node!!") 
   end
 end
+
+--Server Run
+function Server_Start() 
+   count = 0
+end
+
+
+--Main Runtime
+--Initail config
+wifi.setmode(3)
+wifi.sta.autoconnect(0)
+wifi.stopsmart()
 wifi.sta.disconnect()
 wifi.sta.getap(sta_connect)
 wifi.sta.getap(ap_connect)
@@ -78,6 +88,7 @@ else
   
 end
 --Done for wifi setting
+
 server = net.createServer(net.UDP,80)
 
 server.close()
