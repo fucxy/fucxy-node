@@ -12,7 +12,7 @@ ap_dhcp_cfg ={}
 --Other staff
 sub_net_stage=1
 online=0
-
+id=string.format("%x",node.chipid())
 --Wifi ap setting
 function ap_setting()
   wifi.ap.dhcp.stop()

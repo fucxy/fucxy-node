@@ -11,8 +11,10 @@ neighbor=[]
 connect=[False for a in range(node_num)]
 child=[0 for a in range(node_num)]
 limit=4
+rank=[0 for a in range(node_num)]
+level=[0 for a in range(node_num)]
 c=0
-def dist(x1,x2,y1,y2,):
+def dist(x1,x2,y1,y2):
   return ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
 #base station
 print("Program Start")
@@ -29,6 +31,14 @@ for a in range(node_num):
       temp_l.append(b) 
   neighbor.append(temp_l)
 print("the neighbor find end!!")
+def clear():
+  global c
+  global child
+  global parent
+  for a in range(node_num)
+    
+def print_result():
+  
 def con():
   global c
   global child
@@ -46,8 +56,4 @@ def con():
           c+=1
           break
   print("connected node:",c)
-con()
-con()
-con()
-con()
   
