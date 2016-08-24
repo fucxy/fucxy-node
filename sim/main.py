@@ -2,7 +2,7 @@
 import sys,random
 border=1000.0
 tras_range=15.0
-node_num=10000
+node_num=int(sys.argv[1])
 bs_x=bs_y=border/2.0
 x=[random.random()*border for a in range(node_num)]
 y=[random.random()*border for a in range(node_num)]
@@ -58,12 +58,15 @@ def print_result():
   print("Print result")
   temo=0
   max_l=0
+  number=[0,0,0,0,0]
   for a in range(node_num):
     if(connect[a] and dep[a]):
       temo+=1
     if(level[a]>max_l):
       max_l=level[a]
+    number[child[a]]+=1
   print("Connect Node:",c," Max Level:",max_l," Connected Dep node", temo)
+  print("Childr numb 0: ",number[0], " 1: ",number[1]," 2: ",number[2]," 3: ",number[3]," 4: ",number[4])
   print("End!@@")
 def con1():
   global c, child, parent, connect, limit, neighbor, level, rank, dep
@@ -142,28 +145,57 @@ def con3():
           connect[b]=True
           c+=1
           child[a]+=1
+          rank[a]+=1
           level[b]=level[a]+1
           parent[b]=a
+  for a in range(node_num):
+    if(connect[a]==True):
+      for b in neighbor[a]:
+        if(connect[b]==False):
+          rank[a]+=1
+      if(rank[a]>limit):
+        rank[a]=limit 
   while old_c!=c:
     old_c=c
     for a in range(node_num):
       if(connect[a]==False):
+        temp_l=[]
+        min_rank=5
         for b in neighbor[a]: 
           if(connect[b]==True and child[b]<limit and level[b]<255):
-            connect[a]=True
-            level[a]=level[b]+1
-            child[b]+=1
-            parent[a]=b
-            c+=1
-            for d in neighbor[a]:
-              if(dep[d]==True and connect[d]== False):
-                connect[d]=True
-                level[d]=level[a]+1
-                c+=1
-                child[a]+=1
-                parent[d]=a
-            break
-for k in range(2):
+            temp_l.append(b)
+            if(min_rank>rank[b]):
+              min_rank=rank[b]
+        if(len(temp_l)>0):
+          min_level=255
+          temp_k=[]
+          for b in temp_l:
+            if(rank[b]==min_rank):
+              temp_k.append(b)
+              if(min_level>level[b]):
+                min_level=level[b]
+          for b in temp_k:
+            if(min_level==level[b]):
+              connect[a]=True
+              c+=1
+              level[a]=level[b]+1
+              child[b]+=1
+              parent[a]=b
+              break
+          for d in neighbor[a]:
+            if(dep[d]==True and connect[d]== False):
+              connect[d]=True
+              level[d]=level[a]+1
+              rank[a]+=1
+              c+=1
+              child[a]+=1
+              parent[d]=a
+          for b in neighbor[a]:
+            if(connect[b]==False):
+              rank[a]+=1
+          if(rank[a]>limit):
+            rank[a]=limit
+for k in range(30):
   initial()
   clear()
   con1()

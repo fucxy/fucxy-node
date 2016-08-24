@@ -16,4 +16,7 @@ wifi.setmode(3)
 wifi.sta.autoconnect(0)
 wifi.stopsmart()
 wifi.sta.disconnect()
+print("WSNSBS"..string.sub(crypto.toHex(crypto.encrypt("AES-ECB", "1qaz2wsx12345678", "WSNSBS")),0,9))
+print("".."0".."0")
+print(string.format("%x",node.chipid())
 

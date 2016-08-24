@@ -1,0 +1,480 @@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 12  depended node: 88
+the neighbor find end!!
+Print result
+Connect Node: 9958  Max Level: 93  Connected Dep node 72
+Childr numb 0:  5291  1:  2020  2:  1091  3:  642  4:  956
+End!@@
+Print result
+Connect Node: 9961  Max Level: 93  Connected Dep node 75
+Childr numb 0:  5291  1:  2019  2:  1091  3:  642  4:  957
+End!@@
+Print result
+Connect Node: 9963  Max Level: 94  Connected Dep node 76
+Childr numb 0:  3554  1:  3912  2:  1791  3:  509  4:  234
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 21  depended node: 67
+the neighbor find end!!
+Print result
+Connect Node: 9897  Max Level: 94  Connected Dep node 54
+Childr numb 0:  5362  1:  1982  2:  1028  3:  660  4:  968
+End!@@
+Print result
+Connect Node: 9898  Max Level: 94  Connected Dep node 55
+Childr numb 0:  5362  1:  1982  2:  1028  3:  659  4:  969
+End!@@
+Print result
+Connect Node: 9919  Max Level: 93  Connected Dep node 56
+Childr numb 0:  3624  1:  3868  2:  1726  3:  536  4:  246
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 10  depended node: 64
+the neighbor find end!!
+Print result
+Connect Node: 9962  Max Level: 103  Connected Dep node 58
+Childr numb 0:  5281  1:  2034  2:  1093  3:  631  4:  961
+End!@@
+Print result
+Connect Node: 9962  Max Level: 103  Connected Dep node 58
+Childr numb 0:  5281  1:  2034  2:  1093  3:  631  4:  961
+End!@@
+Print result
+Connect Node: 9962  Max Level: 89  Connected Dep node 58
+Childr numb 0:  3627  1:  3794  2:  1830  3:  493  4:  256
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 12  depended node: 63
+the neighbor find end!!
+Print result
+Connect Node: 9971  Max Level: 97  Connected Dep node 53
+Childr numb 0:  5293  1:  2017  2:  1089  3:  636  4:  965
+End!@@
+Print result
+Connect Node: 9973  Max Level: 97  Connected Dep node 55
+Childr numb 0:  5293  1:  2016  2:  1089  3:  637  4:  965
+End!@@
+Print result
+Connect Node: 9973  Max Level: 98  Connected Dep node 55
+Childr numb 0:  3619  1:  3818  2:  1795  3:  515  4:  253
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 11  depended node: 91
+the neighbor find end!!
+Print result
+Connect Node: 9902  Max Level: 95  Connected Dep node 77
+Childr numb 0:  5361  1:  1992  2:  1013  3:  666  4:  968
+End!@@
+Print result
+Connect Node: 9903  Max Level: 95  Connected Dep node 78
+Childr numb 0:  5360  1:  1993  2:  1014  3:  664  4:  969
+End!@@
+Print result
+Connect Node: 9903  Max Level: 87  Connected Dep node 78
+Childr numb 0:  3644  1:  3844  2:  1754  3:  495  4:  263
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 16  depended node: 76
+the neighbor find end!!
+Print result
+Connect Node: 9941  Max Level: 92  Connected Dep node 56
+Childr numb 0:  5285  1:  2030  2:  1099  3:  636  4:  950
+End!@@
+Print result
+Connect Node: 9941  Max Level: 92  Connected Dep node 56
+Childr numb 0:  5285  1:  2030  2:  1099  3:  636  4:  950
+End!@@
+Print result
+Connect Node: 9941  Max Level: 90  Connected Dep node 56
+Childr numb 0:  3585  1:  3850  2:  1847  3:  480  4:  238
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 11  depended node: 79
+the neighbor find end!!
+Print result
+Connect Node: 9952  Max Level: 103  Connected Dep node 67
+Childr numb 0:  5316  1:  2027  2:  1023  3:  662  4:  972
+End!@@
+Print result
+Connect Node: 9952  Max Level: 103  Connected Dep node 67
+Childr numb 0:  5316  1:  2027  2:  1023  3:  662  4:  972
+End!@@
+Print result
+Connect Node: 9952  Max Level: 89  Connected Dep node 67
+Childr numb 0:  3618  1:  3824  2:  1801  3:  507  4:  250
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 13  depended node: 67
+the neighbor find end!!
+Print result
+Connect Node: 9938  Max Level: 92  Connected Dep node 57
+Childr numb 0:  5384  1:  1887  2:  1117  3:  641  4:  971
+End!@@
+Print result
+Connect Node: 9940  Max Level: 92  Connected Dep node 59
+Childr numb 0:  5384  1:  1886  2:  1118  3:  640  4:  972
+End!@@
+Print result
+Connect Node: 9946  Max Level: 91  Connected Dep node 59
+Childr numb 0:  3619  1:  3830  2:  1797  3:  504  4:  250
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 7  depended node: 53
+the neighbor find end!!
+Print result
+Connect Node: 9968  Max Level: 106  Connected Dep node 46
+Childr numb 0:  5292  1:  2005  2:  1107  3:  642  4:  954
+End!@@
+Print result
+Connect Node: 9969  Max Level: 106  Connected Dep node 47
+Childr numb 0:  5292  1:  2005  2:  1107  3:  641  4:  955
+End!@@
+Print result
+Connect Node: 9969  Max Level: 102  Connected Dep node 47
+Childr numb 0:  3568  1:  3884  2:  1814  3:  486  4:  248
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 10  depended node: 73
+the neighbor find end!!
+Print result
+Connect Node: 9939  Max Level: 101  Connected Dep node 57
+Childr numb 0:  5308  1:  2009  2:  1080  3:  648  4:  955
+End!@@
+Print result
+Connect Node: 9939  Max Level: 101  Connected Dep node 57
+Childr numb 0:  5308  1:  2009  2:  1080  3:  648  4:  955
+End!@@
+Print result
+Connect Node: 9939  Max Level: 99  Connected Dep node 57
+Childr numb 0:  3591  1:  3877  2:  1783  3:  506  4:  243
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 12  depended node: 81
+the neighbor find end!!
+Print result
+Connect Node: 9964  Max Level: 89  Connected Dep node 70
+Childr numb 0:  5332  1:  1966  2:  1083  3:  651  4:  968
+End!@@
+Print result
+Connect Node: 9965  Max Level: 89  Connected Dep node 71
+Childr numb 0:  5331  1:  1967  2:  1083  3:  651  4:  968
+End!@@
+Print result
+Connect Node: 9965  Max Level: 89  Connected Dep node 71
+Childr numb 0:  3629  1:  3821  2:  1790  3:  483  4:  277
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 16  depended node: 73
+the neighbor find end!!
+Print result
+Connect Node: 9950  Max Level: 95  Connected Dep node 51
+Childr numb 0:  5297  1:  1993  2:  1115  3:  658  4:  937
+End!@@
+Print result
+Connect Node: 9951  Max Level: 95  Connected Dep node 52
+Childr numb 0:  5297  1:  1993  2:  1114  3:  659  4:  937
+End!@@
+Print result
+Connect Node: 9951  Max Level: 88  Connected Dep node 52
+Childr numb 0:  3578  1:  3871  2:  1818  3:  493  4:  240
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 8  depended node: 68
+the neighbor find end!!
+Print result
+Connect Node: 9955  Max Level: 94  Connected Dep node 57
+Childr numb 0:  5304  1:  1990  2:  1111  3:  644  4:  951
+End!@@
+Print result
+Connect Node: 9955  Max Level: 94  Connected Dep node 57
+Childr numb 0:  5304  1:  1990  2:  1111  3:  644  4:  951
+End!@@
+Print result
+Connect Node: 9955  Max Level: 89  Connected Dep node 57
+Childr numb 0:  3602  1:  3838  2:  1815  3:  500  4:  245
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 19  depended node: 80
+the neighbor find end!!
+Print result
+Connect Node: 9921  Max Level: 100  Connected Dep node 63
+Childr numb 0:  5352  1:  1962  2:  1059  3:  675  4:  952
+End!@@
+Print result
+Connect Node: 9922  Max Level: 100  Connected Dep node 64
+Childr numb 0:  5352  1:  1962  2:  1059  3:  674  4:  953
+End!@@
+Print result
+Connect Node: 9922  Max Level: 91  Connected Dep node 64
+Childr numb 0:  3612  1:  3838  2:  1798  3:  528  4:  224
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 11  depended node: 76
+the neighbor find end!!
+Print result
+Connect Node: 9966  Max Level: 92  Connected Dep node 62
+Childr numb 0:  5292  1:  2011  2:  1095  3:  649  4:  953
+End!@@
+Print result
+Connect Node: 9966  Max Level: 92  Connected Dep node 62
+Childr numb 0:  5292  1:  2011  2:  1095  3:  649  4:  953
+End!@@
+Print result
+Connect Node: 9966  Max Level: 85  Connected Dep node 62
+Childr numb 0:  3586  1:  3864  2:  1812  3:  480  4:  258
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 10  depended node: 69
+the neighbor find end!!
+Print result
+Connect Node: 9945  Max Level: 93  Connected Dep node 56
+Childr numb 0:  5278  1:  2036  2:  1094  3:  653  4:  939
+End!@@
+Print result
+Connect Node: 9946  Max Level: 93  Connected Dep node 57
+Childr numb 0:  5277  1:  2037  2:  1094  3:  653  4:  939
+End!@@
+Print result
+Connect Node: 9949  Max Level: 99  Connected Dep node 57
+Childr numb 0:  3592  1:  3841  2:  1838  3:  490  4:  239
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 11  depended node: 87
+the neighbor find end!!
+Print result
+Connect Node: 9960  Max Level: 97  Connected Dep node 71
+Childr numb 0:  5285  1:  2016  2:  1101  3:  665  4:  933
+End!@@
+Print result
+Connect Node: 9961  Max Level: 97  Connected Dep node 72
+Childr numb 0:  5285  1:  2016  2:  1101  3:  664  4:  934
+End!@@
+Print result
+Connect Node: 9961  Max Level: 92  Connected Dep node 72
+Childr numb 0:  3570  1:  3856  2:  1870  3:  466  4:  238
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 15  depended node: 70
+the neighbor find end!!
+Print result
+Connect Node: 9959  Max Level: 93  Connected Dep node 62
+Childr numb 0:  5299  1:  2016  2:  1092  3:  619  4:  974
+End!@@
+Print result
+Connect Node: 9959  Max Level: 93  Connected Dep node 62
+Childr numb 0:  5299  1:  2016  2:  1092  3:  619  4:  974
+End!@@
+Print result
+Connect Node: 9960  Max Level: 95  Connected Dep node 62
+Childr numb 0:  3610  1:  3797  2:  1862  3:  491  4:  240
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 8  depended node: 77
+the neighbor find end!!
+Print result
+Connect Node: 9958  Max Level: 98  Connected Dep node 68
+Childr numb 0:  5296  1:  1990  2:  1101  3:  692  4:  921
+End!@@
+Print result
+Connect Node: 9958  Max Level: 98  Connected Dep node 68
+Childr numb 0:  5296  1:  1990  2:  1101  3:  692  4:  921
+End!@@
+Print result
+Connect Node: 9962  Max Level: 93  Connected Dep node 68
+Childr numb 0:  3655  1:  3759  2:  1809  3:  529  4:  248
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 10  depended node: 86
+the neighbor find end!!
+Print result
+Connect Node: 9966  Max Level: 93  Connected Dep node 76
+Childr numb 0:  5318  1:  1954  2:  1124  3:  658  4:  946
+End!@@
+Print result
+Connect Node: 9967  Max Level: 93  Connected Dep node 77
+Childr numb 0:  5318  1:  1954  2:  1123  3:  659  4:  946
+End!@@
+Print result
+Connect Node: 9967  Max Level: 93  Connected Dep node 77
+Childr numb 0:  3580  1:  3854  2:  1826  3:  505  4:  235
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 12  depended node: 73
+the neighbor find end!!
+Print result
+Connect Node: 9938  Max Level: 94  Connected Dep node 54
+Childr numb 0:  5329  1:  1970  2:  1116  3:  612  4:  973
+End!@@
+Print result
+Connect Node: 9938  Max Level: 94  Connected Dep node 54
+Childr numb 0:  5329  1:  1970  2:  1116  3:  612  4:  973
+End!@@
+Print result
+Connect Node: 9938  Max Level: 92  Connected Dep node 54
+Childr numb 0:  3621  1:  3835  2:  1788  3:  505  4:  251
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 8  depended node: 79
+the neighbor find end!!
+Print result
+Connect Node: 9970  Max Level: 91  Connected Dep node 68
+Childr numb 0:  5309  1:  1989  2:  1089  3:  655  4:  958
+End!@@
+Print result
+Connect Node: 9971  Max Level: 91  Connected Dep node 69
+Childr numb 0:  5309  1:  1989  2:  1088  3:  656  4:  958
+End!@@
+Print result
+Connect Node: 9973  Max Level: 85  Connected Dep node 70
+Childr numb 0:  3604  1:  3825  2:  1810  3:  522  4:  239
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 10  depended node: 88
+the neighbor find end!!
+Print result
+Connect Node: 9958  Max Level: 95  Connected Dep node 68
+Childr numb 0:  5292  1:  2018  2:  1077  3:  673  4:  940
+End!@@
+Print result
+Connect Node: 9958  Max Level: 95  Connected Dep node 68
+Childr numb 0:  5292  1:  2018  2:  1077  3:  673  4:  940
+End!@@
+Print result
+Connect Node: 9958  Max Level: 90  Connected Dep node 68
+Childr numb 0:  3578  1:  3852  2:  1821  3:  539  4:  210
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 14  depended node: 96
+the neighbor find end!!
+Print result
+Connect Node: 9946  Max Level: 93  Connected Dep node 76
+Childr numb 0:  5306  1:  2002  2:  1094  3:  644  4:  954
+End!@@
+Print result
+Connect Node: 9946  Max Level: 93  Connected Dep node 76
+Childr numb 0:  5306  1:  2002  2:  1094  3:  644  4:  954
+End!@@
+Print result
+Connect Node: 9949  Max Level: 91  Connected Dep node 76
+Childr numb 0:  3580  1:  3891  2:  1779  3:  508  4:  242
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 13  depended node: 93
+the neighbor find end!!
+Print result
+Connect Node: 9920  Max Level: 95  Connected Dep node 78
+Childr numb 0:  5280  1:  2015  2:  1123  3:  677  4:  905
+End!@@
+Print result
+Connect Node: 9921  Max Level: 95  Connected Dep node 79
+Childr numb 0:  5280  1:  2015  2:  1123  3:  676  4:  906
+End!@@
+Print result
+Connect Node: 9921  Max Level: 97  Connected Dep node 79
+Childr numb 0:  3621  1:  3798  2:  1854  3:  501  4:  226
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 8  depended node: 93
+the neighbor find end!!
+Print result
+Connect Node: 9928  Max Level: 92  Connected Dep node 74
+Childr numb 0:  5314  1:  2013  2:  1064  3:  654  4:  955
+End!@@
+Print result
+Connect Node: 9929  Max Level: 92  Connected Dep node 75
+Childr numb 0:  5313  1:  2014  2:  1064  3:  654  4:  955
+End!@@
+Print result
+Connect Node: 9929  Max Level: 94  Connected Dep node 75
+Childr numb 0:  3649  1:  3813  2:  1750  3:  541  4:  247
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 9  depended node: 69
+the neighbor find end!!
+Print result
+Connect Node: 9976  Max Level: 89  Connected Dep node 65
+Childr numb 0:  5267  1:  2013  2:  1120  3:  683  4:  917
+End!@@
+Print result
+Connect Node: 9976  Max Level: 89  Connected Dep node 65
+Childr numb 0:  5267  1:  2013  2:  1120  3:  683  4:  917
+End!@@
+Print result
+Connect Node: 9976  Max Level: 89  Connected Dep node 65
+Childr numb 0:  3590  1:  3847  2:  1803  3:  523  4:  237
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 11  depended node: 84
+the neighbor find end!!
+Print result
+Connect Node: 9956  Max Level: 104  Connected Dep node 69
+Childr numb 0:  5270  1:  2042  2:  1082  3:  680  4:  926
+End!@@
+Print result
+Connect Node: 9957  Max Level: 104  Connected Dep node 70
+Childr numb 0:  5269  1:  2043  2:  1082  3:  680  4:  926
+End!@@
+Print result
+Connect Node: 9958  Max Level: 99  Connected Dep node 70
+Childr numb 0:  3620  1:  3831  2:  1794  3:  487  4:  268
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 14  depended node: 77
+the neighbor find end!!
+Print result
+Connect Node: 9972  Max Level: 92  Connected Dep node 71
+Childr numb 0:  5307  1:  1990  2:  1098  3:  638  4:  967
+End!@@
+Print result
+Connect Node: 9975  Max Level: 92  Connected Dep node 74
+Childr numb 0:  5305  1:  1992  2:  1098  3:  637  4:  968
+End!@@
+Print result
+Connect Node: 9975  Max Level: 90  Connected Dep node 74
+Childr numb 0:  3574  1:  3860  2:  1819  3:  515  4:  232
+End!@@
+Program Start
+Let's find the neighbor!
+Total nodes: 10000  isolated node: 12  depended node: 60
+the neighbor find end!!
+Print result
+Connect Node: 9882  Max Level: 94  Connected Dep node 46
+Childr numb 0:  5379  1:  1916  2:  1105  3:  651  4:  949
+End!@@
+Print result
+Connect Node: 9883  Max Level: 94  Connected Dep node 47
+Childr numb 0:  5378  1:  1917  2:  1105  3:  651  4:  949
+End!@@
+Print result
+Connect Node: 9883  Max Level: 88  Connected Dep node 47
+Childr numb 0:  3669  1:  3790  2:  1770  3:  538  4:  233
+End!@@
